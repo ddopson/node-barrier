@@ -1,0 +1,21 @@
+{
+  "name": "barrier"
+  ,"description": "A very simple implementation of Barrier as a coordination primitive"
+  ,"version": "0.1.0"
+  ,"contributors": [
+    "Dave Dopson <ddopson@gmail.com>"
+  ]
+  ,"dependencies": {}
+  ,"devDependencies": {
+    "mocha": "*",
+    "expect.js": "*"
+  }
+  ,"main": "lib/barrier.js"
+  ,"directories": {
+    "bin": "./bin"
+  }
+  ,"repository": { "type": "git", "url": "git://github.com/ddopson/node-barrier.git" }
+  ,"scripts": {
+    "test": "mocha -R spec test/*-test.js"
+  }
+}
