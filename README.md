@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/ddopson/node-barrier.png)](http://travis-ci.org/ddopson/node-barrier)
 
 # Overview
 
