@@ -10,7 +10,7 @@ describe('when waiting on a barrier', function () {
     b.once(function () { done = true; });
     expect(done).to.eql(false);
   });
-  describe('and calling complete', function () {
+  describe('and calling complete()', function () {
     it('completes', function () {
       expect(done).to.eql(false);
       b.complete();
