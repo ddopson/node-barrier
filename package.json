@@ -8,7 +8,8 @@
   ,"dependencies": {}
   ,"devDependencies": {
     "mocha": "*",
-    "expect.js": "*"
+    "expect.js": "*",
+	"underscore": "*"
   }
   ,"main": "lib/barrier.js"
   ,"directories": {
